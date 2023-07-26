@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+
+    --primary: #00b4d8;
+    --success: #3a5a40;
+    --danger: #f50000;
+    --main-font: 'Roboto', sans-serif;
+
+}
+
+*{
+    font-family: var(--main-font);
+}
+
+.btn{
+    color: white;
+    background-color: #333533;
+    font-family: var(--main-font);
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 3px solid #333533;
+    border-radius:7px;
+}
+
+.btn:hover {
+    border-color: black;
+}
+
+.btn-outline {
+    color: black;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 3px solid #333533;
+    border-radius:7px;
+}
+
+.btn-outline:hover {
+    color: white;
+    background-color: #333533;
+}
+
+.btn-icon {
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #333533;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* padding: 10px 20px; */
+    border: 3px solid #333533;
+    border-radius:7px;
+}
+
+.outline{
+    color: gray;
+    background-color: transparent;
+    border: 3px solid #333533;
+    /* border-radius:50%; */
+}
+
+.rounded {
+    border-radius: 25px;
+}
+
+.circle {
+    border-radius:50%;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+    border-color: var(--success);
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    color: white;
+    border-color: var(--danger);
+}
+
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+.btn-outline-success {
+    color: var(--success);
+    border-color: var(--success);
+}
+
+.btn-outline-success:hover {
+    background-color: var(--success);
+    color: white;
+}
+
+.btn-outline-danger {
+    color: var(--danger);
+    border-color: var(--danger);
+}
+
+.btn-outline-danger:hover {
+    background-color: var(--danger);
+    color: white;
+}

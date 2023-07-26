@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+:root {
+  --primary: #00b4d8;
+  --success: #3a5a40;
+  --danger: #f50000;
+  --main-font: "Roboto", sans-serif;
+}
+
+* {
+  font-family: var(--main-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #83c5be;
+}
+
+/* .form {
+  
+} */
+
+.form-div {
+  background-color: #d4a373;
+  width: 400px;
+  margin: 100px auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 25px;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 25px;
+  background-color: #d4a373;
+  border: 1px solid black;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: auto -70px;
+}
+
+.input-div {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-select,
+.form-textarea,
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #48cae4;
+  color: #edf6f9;
+}
+
+.form-select::placeholder,
+.form-textarea::placeholder,
+.form-input::placeholder {
+ color: #edf6f9;
+}
+
+.form-select:focus-visible,
+.form-textarea:focus-visible,
+.form-input:focus-visible {
+  outline: none;
+  /* can custom as you like when focus */
+}
+
+.form-select{
+  appearance: none;
+  background-image: url(../image/dropdown-arrow-svgrepo-com.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.form-check{
+display: inline-block;
+margin-right: 10px;
+}
+
+.form-check-input{
+  /* accent-color: black; */
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.form-check-input:checked{
+  background-color: black;
+  background-image: url(../image/checkmark-svgrepo-com.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-check label{
+  user-select: none;
+}
+
+.btn {
+  padding: 10px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: auto;
+}
